@@ -1,0 +1,48 @@
+{
+    "name": "Ayko's Source of Balatro",
+    "subtitle": "Balatro Steam on IOS for cross save.",
+    "description": "Welcome to my source! Here you'll find Balatro.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "website": "https://example.com",
+    "tintColor": "#1d1d1d",
+    "featuredApps": [
+        "org.htf65jud.balatro",
+    ],
+    "apps": [
+        {
+            "name": "Balatro",
+            "bundleIdentifier": "org.htf65jud.balatro",
+            "developerName": "Ayko",
+            "subtitle": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+            "localizedDescription": "This is an awesome game only available on AltStore.",
+            "iconURL": "https://github.com/jakegiorlando/altstore-source/blob/main/balatro-icon.png",
+            "tintColor": "#5CA399",
+            "versions": [
+                {
+                    "version": "1.0.1c",
+                    "date": "2025-04-10T07:00:00-08:00",
+                    "size": 80000,
+                    "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.6/balatro.ipa",
+                    "localizedDescription": "Initial release."
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.team-identifier",
+                    "com.apple.developer.ubiquity-kvstore-identifier",
+                    "com.apple.developer.icloud-services",
+                    "com.apple.developer.icloud-container-environment",
+                    "com.apple.developer.icloud-container-identifiers",
+                    "com.apple.developer.icloud-container-development-container-identifiers",
+                    "com.apple.developer.ubiquity-container-identifiers"
+                ],
+                "privacy": {
+                    "NSFaceIDUsageDescription": "App needs FaceID permissions for user-defined settings",
+                    "NSPhotoLibraryUsageDescription": "App needs permission to save pages in your photo library",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                }
+            }
+        }
+    ]
+}

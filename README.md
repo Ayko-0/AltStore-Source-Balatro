@@ -1,2 +1,2 @@
-# AltStore-Source-Balatro
-Balatro Steam on IOS for cross save.
+# altstore-source
+AltStore source for apps I use [personal use]
