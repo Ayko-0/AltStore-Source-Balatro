@@ -3,7 +3,6 @@
     "subtitle": "Balatro Steam on IOS for cross save.",
     "description": "Welcome to my source! Here you'll find Balatro.",
     "iconURL": "https://github.com/Ayko-0/AltStore-Source-Balatro/blob/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
     "website": "https://github.com/Ayko-0/AltStore-Source-Balatro",
     "tintColor": "#1d1d1d",
     "featuredApps": [
@@ -13,19 +12,24 @@
         {
             "name": "Balatro",
             "bundleIdentifier": "org.htf65jud.balatro",
+            "marketplaceID": "75643216",
             "developerName": "Ayko",
             "subtitle": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
             "localizedDescription": "This is an awesome game only available on AltStore.",
             "iconURL": "https://github.com/Ayko-0/AltStore-Source-Balatro/blob/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png",
             "tintColor": "#5CA399",
+            "category": "games",
             "versions": [
-                {
-                    "version": "1.0.1c",
-                    "date": "2025-04-10T07:00:00-08:00",
-                    "size": 80000,
-                    "downloadURL": "https://github.com/Ayko-0/AltStore-Source-Balatro/blob/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro.ipa",
-                    "localizedDescription": "Initial release."
-                }
+              {
+                "version": "1.0.1",
+                "buildVersion": "1.0.1c",
+                "date": "2023-03-30",
+                "localizedDescription": "First AltStore release!",
+                "downloadURL": "https://github.com/Ayko-0/AltStore-Source-Balatro/blob/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro.ipa",
+                "size": 80000,
+                "minOSVersion": "17.2",
+              },
+            ]
             ],
             "appPermissions": {
                 "entitlements": [
