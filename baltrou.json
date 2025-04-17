@@ -32,9 +32,7 @@
             ],
             "appPermissions": {
                 "entitlements": [ ],
-                "privacy": {
-                    "NSBluetoothAlwaysUsageDescription": "Connect to Amiga"
-                }
+                "privacy": { }
             }
         }
     ],
