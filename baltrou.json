@@ -1,37 +1,46 @@
-	
-name	"Ayko's Source of Balatro"
-subtitle	"Balatro Steam on IOS for cross save."
-description	"Welcome to my source! Here you'll find Balatro."
-iconURL	"https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png"
-website	"https://github.com/Ayko-0/AltStore-Source-Balatro"
-tintColor	"#1d1d1d"
-featuredApps	
-0	"org.htf65jud.balatr"
-apps	
-0	
-name	"Balatro"
-bundleIdentifier	"org.htf65jud.balatr"
-marketplaceID	"6448127508"
-developerName	"Ayko"
-subtitle	"A awesome game"
-localizedDescription	"The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos."
-iconURL	"https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png"
-tintColor	"#1d1d1d"
-category	"games"
-screenshots	
-0	"https://app.scumm.it/amigabluekick/images/screenshot1.png"
-1	"https://app.scumm.it/amigabluekick/images/screenshot2.png"
-versions	
-0	
-version	"1.0"
-buildVersion	"4"
-date	"2025-02-28"
-size	3219314
-downloadURL	"https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/b7ca1e483eb4952fcfcb1d99aa4f5b09f7db9f8c/manifest.json"
-localizedDescription	"Initial release."
-minOSVersion	"18.2"
-appPermissions	
-entitlements	[]
-privacy	
-NSBluetoothAlwaysUsageDescription	"Connect to Amiga"
-news	[]
+{
+    "name": "Ayko's Source of Balatro",
+    "subtitle": "Balatro Steam on IOS for cross save.",
+    "description": "Welcome to my source! Here you'll find Balatro.",
+    "iconURL": "https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png",
+    "website": "https://github.com/Ayko-0/AltStore-Source-Balatro",
+    "tintColor": "#1d1d1d",
+    "featuredApps": [
+        "org.htf65jud.balatro"
+    ],
+    "apps": [
+        {
+            "name": "Balatro",
+            "bundleIdentifier": "org.htf65jud.balatr",
+            "marketplaceID": "6448127508",
+            "developerName": "Ayko",
+            "subtitle": "A awesome game",
+            "localizedDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+            "iconURL": "https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png",
+            "tintColor": "#1d1d1d",
+            "category": "games",
+            "screenshots": [
+                "https://app.scumm.it/amigabluekick/images/screenshot1.png",
+                "https://app.scumm.it/amigabluekick/images/screenshot2.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "buildVersion": "4",
+                    "date": "2025-02-28",
+                    "size": 3219314,
+                    "downloadURL": "https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/b7ca1e483eb4952fcfcb1d99aa4f5b09f7db9f8c/manifest.json",
+                    "localizedDescription": "Initial release.",
+                    "minOSVersion": "18.2"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [ ],
+                "privacy": {
+                    "NSBluetoothAlwaysUsageDescription": "Connect to Amiga"
+                }
+            }
+        }
+    ],
+    "news": [ ]
+}
