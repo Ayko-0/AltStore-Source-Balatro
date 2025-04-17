@@ -1,0 +1,47 @@
+{
+    "name": "Scumm Apps",
+    "subtitle": "Apps for nerds, enthusiasts, retro computing, and more",
+    "description": "Independent developer sharing projects with the world",
+    "iconURL": "https://app.scumm.it/images/logo-site.png",
+    "headerURL": "https://app.scumm.it/images/header-site.png",
+    "website": "https://app.scumm.it",
+    "tintColor": "#D9D7CD",
+    "featuredApps": [
+        "scumm.it.Amiga-Blue-Kick"
+    ],
+    "apps": [
+        {
+            "name": "Amiga Blue Kick",
+            "bundleIdentifier": "scumm.it.Amiga-Blue-Kick",
+            "marketplaceID": "6742137802",
+            "developerName": "Emanuele Laface",
+            "subtitle": "Switch Amiga Kickstart via Bluetooth",
+            "localizedDescription": "Companion application for the Amiga Blue Kick project (https://github.com/emanuelelaface/AmigaBlueKick). Connecting an ESP32 to an Amiga Kickstart ROM is possible to switch the kickstart via Bluetooth using this application",
+            "iconURL": "https://app.scumm.it/amigabluekick/images/logo-amigabluekick.png",
+            "tintColor": "#3F3D40",
+            "category": "utilities",
+            "screenshots": [
+                "https://app.scumm.it/amigabluekick/images/screenshot1.png",
+                "https://app.scumm.it/amigabluekick/images/screenshot2.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "buildVersion": "4",
+                    "date": "2025-02-28",
+                    "size": 3219314,
+                    "downloadURL": "https://app.scumm.it/amigabluekick/v1.0",
+                    "localizedDescription": "First release of Amiga Blue Kick to switch Amiga Kickstart",
+                    "minOSVersion": "18.2"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [ ],
+                "privacy": {
+                    "NSBluetoothAlwaysUsageDescription": "Connect to Amiga"
+                }
+            }
+        }
+    ],
+    "news": [ ]
+}
