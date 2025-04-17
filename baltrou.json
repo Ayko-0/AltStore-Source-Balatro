@@ -19,9 +19,6 @@
             "iconURL": "https://raw.githubusercontent.com/Ayko-0/AltStore-Source-Balatro/9ad2732b21a4c570023f14dd740c9dd46c1b4807/balatro-icon.png",
             "tintColor": "#1d1d1d",
             "category": "games",
-            "screenshots": [
-                "https://app.scumm.it/amigabluekick/images/screenshot1.png",
-                "https://app.scumm.it/amigabluekick/images/screenshot2.png"
             ],
             "versions": [
                 {
